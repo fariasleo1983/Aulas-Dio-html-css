@@ -1,5 +1,8 @@
 body {
 	background: #f3f3f3;
+	font-family: verdana;
+	max-width: 900px;
+	margin: auto;
 }
 
 .photo {
@@ -9,6 +12,16 @@ body {
 
 #title, .subtitle, .post-title {
 	color: gold;
+}
+
+#title {
+	font-size: 40px;
+	text-transform: uppercase;
+}
+
+a {
+	text-decoration: line-through;
+	color: green;
 }
 
 .post-title {
@@ -29,8 +42,20 @@ body {
 .post-content {
 	margin: 0;
 	margin-bottom: 15px;
+	text-transform: capitalize;
+	text-align: justify;
 }
 
 .post-image {
 	margin-bottom: 15px;
+	width: 150px;
+}
+
+.contacte-list {
+	list-style-type: none;
+	padding-left: 1px;
+}
+
+.contacte-list li a {
+	text-decoration: none;
 }
